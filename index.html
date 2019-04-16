@@ -19,8 +19,7 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/styles.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -32,58 +31,52 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <header>
-  <div class="container">
-    <div class="row" style="margin-top: 5%">
-      <div class="one-half column" >
-        <h1>Will Rhoads<h1>
-        <h4>Front-end Ninja<h4>
-      </div>
-      <div class="image-container">
-        <img class="logo" height="150" width="150" src="images/favicon.png" alt="logo">
-      </div>
+  <div class="grid">
+    <div class="col">
+      <h1>Will Rhoads<h1>
+      <h4>Front-end Ninja<h4>
+    </div>
+    <div class="col right">
+      <img height="150" width="150" src="images/favicon.png" alt="logo">
     </div>
   </div>
 </header>
 
 <main>
-  <section id="featured-project" class="u-full-width">
-    <div class = "container">
-      <div class="row">
-        <div class="one-half column" style="margin-top: 25%">
-          <h3>Start Page</h3>
-          <p>Starting Page.</p>
-        </div>
+  <section id="featured-project">
+    <div class = "grid">
+      <div class="col">
+        <h3>Start Page</h3>
+        <p>Starting Page.</p>
       </div>
     </div>
   </section>
   <section id="projects">
-    <div class="container">
-      <div class="row">
-        <section id="project-header">
-          <div class="one-half column" style="margin-top: 5%">
-            <header>
-              <h3>Featured Projects</h3>
-            </header>
-          </div>
-        </section>
-      </div>
-      <div class="row">
+    <div class="grid">
+      <section id="project-header">
+        <div class="col">
+          <header>
+            <h3>Featured Projects</h3>
+          </header>
+        </div>
+      </section>
+      <div class="grid">
         <section id="project-1">
-          <div class="one-third column">
+          <div class="col">
             <header>
               <h4>Pixel Art Maker</h4>
             </header>
             <figure>
-              <img class="u-max-full-width" src="images/pixel-art-maker.png" alt="place holder image">
+              <img src="images/pixel-art-maker.png" alt="place holder image">
               <figcaption>
                 <p>Created a pixel art maker in JavaScript for an Intro to Programming Class.</p>
               </figcaption>
             </figure>
-            <a class="button button-primary u-full-width" href="/pixel-art-maker">Try it out</a>
+            <a href="/pixel-art-maker">Try it out</a>
           </div>
         </section>
         <section id="project-2">
-          <div class="one-third column">
+          <div class="col">
             <header>
               <h4>Project 1</h4>
             </header>
@@ -96,12 +89,12 @@
           </div>
         </section>
         <section id="project-3">
-          <div class="one-third column">
+          <div class="col">
             <header>
               <h4>Project 1</h4>
             </header>
             <figure>
-              <img class="u-max-full-width" src="images/favicon.png" alt="place holder image">
+              <img src="images/favicon.png" alt="place holder image">
               <figcaption>
                 <p>This is a place holder image</p>
               </figcaption>
@@ -114,8 +107,8 @@
 </main>
 
 <footer>
-  <div class="container">
-    <div class="row">
+  <div class="grid">
+    <div class="col">
       <div class="twelve column">
         <p>Footer Section</p>
       </div>
