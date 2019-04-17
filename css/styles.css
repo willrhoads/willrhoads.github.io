@@ -5,6 +5,7 @@ body {
 .header{
   padding: 30px;
   background: #ddd;
+  text-align: center;
 }
 
 
@@ -33,7 +34,8 @@ html {
 
 
 .logo{
-  flex-basis: 300px
+  padding: 25px;
+  order: 2;
 }
 
 body {
@@ -71,5 +73,11 @@ body {
 @media only screen and (min-width: 600px){
   .right {
     margin-left: auto;
+  }
+  .logo{
+    order: -1;
+  }
+  .header{
+    text-align: inherit;
   }
 }
