@@ -1,11 +1,32 @@
 body {
   margin: 0px;
+  font-size: 1.6em;
+  line-height: 1.7;
+  font-family: "Martel Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
 }
+
+
+img {
+  max-width: 100%;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
 
 .header{
   padding: 30px;
   background: #ddd;
   text-align: center;
+}
+
+
+.logo{
+  padding: 25px;
+  order: 2;
 }
 
 
@@ -18,32 +39,31 @@ body {
 }
 
 
-
 .col {
   flex-wrap: auto;
 }
 
 
-img {
-  max-width: 100%;
+h1{
+  font: 200 5.5rem/3rem Martel Sans;
 }
 
-html {
-  font-size: 62.5%;
+h2{
+  font: 4.5rem/3rem Martel Sans;
 }
 
 
-.logo{
-  padding: 25px;
-  order: 2;
+h3{
+  font: 3.5rem/4rem Martel Sans;
 }
 
-body {
-  font-size: 1.5em;
-  line-height: 1.6;
-  font-weight: 400;
-  font-family: "Noto Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222;
+
+h4{
+  font: 200 2.5rem/2rem Martel Sans;
+}
+
+p{
+  font: 1.6rem/1.7rem Martel Sans;
 }
 
 
@@ -63,6 +83,7 @@ body {
   border: 0.2rem solid #006e6d;
   border-radius: 0.4rem
 }
+
 
 .button-cta:hover {
   background-color: #006e6d;
