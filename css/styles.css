@@ -88,7 +88,7 @@ p{
   color: white;
 }
 .project{
-  max-width: 400px;
+  max-width: 325px;
   margin: auto;
 }
 .project-img{
@@ -108,3 +108,7 @@ p{
   }
 
 }
+@media only screen and (min-width: 1200px){
+  .project{
+    max-width: 400px;
+  }
