@@ -108,6 +108,41 @@ p{
   align-self: center;
 }
 
+
+.footer{
+  margin-top: 100px;
+  padding: 60px;
+  background: #006e6d;
+  text-align: center;
+}
+
+.footer-text{
+  color: #fff;
+}
+
+
+.social{
+  max-width: 60px;
+  margin: 10px;
+  align-self: center;
+}
+
+.social-con{
+    min-width: 50%;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (min-width: 440px){
+  .copyright{
+    min-width: 100%;
+  }
+  .social-con{
+    min-width: auto;
+  }
+}
+
+
 @media only screen and (min-width: 1024px){
   .right {
     margin-left: auto;
@@ -118,5 +153,8 @@ p{
   .header{
     text-align: inherit;
   }
-
+  .copyright {
+    margin-left: auto;
+    min-width: auto;
+  }
 }
