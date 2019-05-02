@@ -65,7 +65,6 @@ p{
   flex-wrap: auto;
 }
 
-
 .button{
   background-color: #006e6d;
   border: none;
@@ -88,7 +87,14 @@ p{
   background-color: #006e6d;
   color: white;
 }
-
+.project{
+  max-width: 400px;
+  margin: auto;
+}
+.project-img{
+  width:100%;
+  align-self: center;
+}
 
 @media only screen and (min-width: 600px){
   .right {
@@ -100,4 +106,5 @@ p{
   .header{
     text-align: inherit;
   }
+
 }
