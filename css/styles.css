@@ -88,7 +88,7 @@ p{
   color: white;
 }
 .project{
-  max-width: 325px;
+  max-width: 400px;
   margin: auto;
 }
 .project-img{
@@ -96,7 +96,7 @@ p{
   align-self: center;
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 1024px){
   .right {
     margin-left: auto;
   }
@@ -108,7 +108,3 @@ p{
   }
 
 }
-@media only screen and (min-width: 1200px){
-  .project{
-    max-width: 400px;
-  }
