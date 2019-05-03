@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  font-size: 1.6em;
+  font-size: 62.5%;
   line-height: 1.7;
   font-family: "Martel Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
@@ -21,7 +21,7 @@ h1{
 }
 
 h2{
-  font: 4.5rem/3rem Martel Sans;
+  font: 200 4.5rem/5.5rem Martel Sans;
 }
 
 
@@ -34,12 +34,13 @@ h4{
   font: 200 2.5rem/2rem Martel Sans;
 }
 
+
 p{
-  font: 1.6rem/1.7rem Martel Sans;
+  font: 2rem/2.2rem Martel Sans;
 }
 
 
-.header{
+.header-main{
   padding: 30px;
   background: #ddd;
   text-align: center;
@@ -65,7 +66,19 @@ p{
   flex-wrap: auto;
 }
 
+.hero{
+  background: url("../images/hero.png") 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.hero-copy{
+  color: #fff;
+  text-align: center;
+}
 .button-link{
   text-decoration: none;
 }
@@ -94,6 +107,11 @@ p{
 .button-cta:hover {
   background-color: #006e6d;
   color: white;
+}
+
+
+.project-title{
+  padding: 30px;
 }
 
 
@@ -150,11 +168,7 @@ p{
   .logo{
     order: -1;
   }
-  .header{
-    text-align: inherit;
-  }
   .copyright {
-    margin-left: auto;
     min-width: auto;
   }
 }
