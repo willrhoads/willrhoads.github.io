@@ -127,7 +127,8 @@ p{
 
 
 .project{
-  max-width: 400px;
+  max-width: 380px;
+  padding: 10px;
   margin: auto;
 }
 
