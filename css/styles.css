@@ -26,7 +26,7 @@ h2{
 
 
 h3{
-  font: 3.5rem/4rem Martel Sans;
+  font: 200 3.5rem/4.5rem Martel Sans;
 }
 
 
@@ -65,7 +65,7 @@ p{
 
 
 .col {
-  flex-wrap: auto;
+  flex-wrap: wrap;
 }
 
 
@@ -90,7 +90,6 @@ p{
 .button-link{
   text-decoration: none;
 }
-
 
 
 .button{
