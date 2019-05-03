@@ -1,6 +1,10 @@
+html {
+  font-size: 62.5%; /* 1em = 10px */
+}
+
+
 body {
   margin: 0px;
-  font-size: 62.5%;
   line-height: 1.7;
   font-family: "Martel Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
@@ -8,14 +12,10 @@ body {
 
 
 img {
-  max-width: 100%;
+  max-width: 100%; /* fit images to divs */
 }
 
-
-html {
-  font-size: 62.5%;
-}
-
+/* Font sizes*/
 h1{
   font: 200 5rem/5rem Martel Sans;
 }
@@ -40,6 +40,7 @@ p{
 }
 
 
+/* Header styles */
 .header-main{
   padding: 30px;
   background: #ddd;
@@ -53,6 +54,7 @@ p{
 }
 
 
+/*Grid and column styles */
 .grid{
   display: flex;
   flex-wrap: wrap;
@@ -66,6 +68,8 @@ p{
   flex-wrap: auto;
 }
 
+
+/*Hero area styles */
 .hero{
   background: url("../images/hero.png") 50% no-repeat;
   background-size: cover;
@@ -75,13 +79,19 @@ p{
   justify-content: center;
 }
 
+
 .hero-copy{
   color: #fff;
   text-align: center;
 }
+
+
+/* Button styles */
 .button-link{
   text-decoration: none;
 }
+
+
 
 .button{
   background-color: #006e6d;
@@ -110,6 +120,7 @@ p{
 }
 
 
+/* Project area styles */
 .project-title{
   padding: 30px;
 }
@@ -127,12 +138,14 @@ p{
 }
 
 
+/* Footer styles */
 .footer{
   margin-top: 100px;
   padding: 60px;
   background: #006e6d;
   text-align: center;
 }
+
 
 .footer-text{
   color: #fff;
@@ -145,12 +158,14 @@ p{
   align-self: center;
 }
 
+
 .social-con{
     min-width: 50%;
     flex-wrap: wrap;
 }
 
 
+/* Media Queries */
 @media only screen and (min-width: 440px){
   .copyright{
     min-width: 100%;
