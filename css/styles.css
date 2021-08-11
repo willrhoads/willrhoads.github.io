@@ -96,6 +96,22 @@ a:link:visited{
 }
 
 
+.hero-sm{
+  background: url("../images/hero.png") 50% no-repeat;
+  background-size: cover;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.hero-sm-copy{
+  color: #fff;
+  text-align: center;
+}
+
+
 /* Button styles */
 .button-link{
   text-decoration: none;
