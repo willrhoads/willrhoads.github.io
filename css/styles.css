@@ -96,7 +96,7 @@ a:link:visited{
 }
 
 
-.hero-sm{
+.smhero{
   background: url("../images/hero.png") 50% no-repeat;
   background-size: cover;
   height: 20vh;
@@ -106,7 +106,7 @@ a:link:visited{
 }
 
 
-.hero-sm-copy{
+.smhero-copy{
   color: #fff;
   text-align: center;
 }
