@@ -40,6 +40,11 @@ p{
 }
 
 
+a.hero:link{
+  color: #ace0f2
+}
+
+
 /* Header styles */
 .header-main{
   padding: 30px;
