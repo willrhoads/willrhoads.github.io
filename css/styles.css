@@ -45,6 +45,11 @@ a:link{
 }
 
 
+a:link:visited{
+  color: #941352
+}
+
+
 /* Header styles */
 .header-main{
   padding: 30px;
